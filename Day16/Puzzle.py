@@ -54,4 +54,4 @@ Comparison = {
 SueList = ParseFile("Day16\Input.txt", CreateSueList)
 
 print(f'Puzzle 1: Find Sue = {CompareLists(SueList, Comparison, False)[0]+1}')
-print(f'Puzzle 2: Find REAL Sue = {CompareLists(SueList, Comparison, True)[0]+1}') #259 Low
+print(f'Puzzle 2: Find REAL Sue = {CompareLists(SueList, Comparison, True)[0]+1}')
