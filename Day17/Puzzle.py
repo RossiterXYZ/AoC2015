@@ -30,8 +30,6 @@ def JugPermutations(_Jugs, _Target):
 
 JugSizes = ParseFile("Day17\Input.txt")
 JugSizes.sort(reverse=True)
-TestSizes = [20, 15, 10, 5, 5]
-
 
 JugData = JugPermutations(JugSizes, 150)
 Part1 = JugData[0]
